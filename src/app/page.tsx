@@ -93,7 +93,7 @@ export default function Home() {
 
   return (
     <div className="container">
-      <h1>My ToDos</h1>
+      <h1>My ToDos (Auto-Deployed 🚀)</h1>
       
       <form onSubmit={addTodo} className="input-group">
         <input 
