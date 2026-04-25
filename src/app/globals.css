@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  --bg-gradient: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+  --bg-gradient: linear-gradient(135deg, #FF9A9E 0%, #FECFEF 99%, #FECFEF 100%);
   --text-color: #333;
   --glass-bg: rgba(255, 255, 255, 0.7);
   --glass-border: rgba(255, 255, 255, 0.4);
-  --primary: #4F46E5;
-  --primary-hover: #4338CA;
+  --primary: #FF6B6B;
+  --primary-hover: #FA5252;
   --danger: #EF4444;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-gradient: linear-gradient(135deg, #1e1e24 0%, #2b2b35 100%);
+    --bg-gradient: linear-gradient(135deg, #FF758C 0%, #FF7EB3 100%);
     --text-color: #f1f1f1;
     --glass-bg: rgba(40, 40, 50, 0.6);
     --glass-border: rgba(255, 255, 255, 0.1);
