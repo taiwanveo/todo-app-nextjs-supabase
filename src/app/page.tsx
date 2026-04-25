@@ -10,6 +10,7 @@ type Todo = {
   created_at: string
 }
 
+// v2.1 - Forced push to trigger auto-deployment
 export default function Home() {
   const [todos, setTodos] = useState<Todo[]>([])
   const [newTask, setNewTask] = useState('')
@@ -93,7 +94,7 @@ export default function Home() {
 
   return (
     <div className="container">
-      <h1>My ToDos (Auto-Deployed 🚀)</h1>
+      <h1>My ToDos (v2 - Auto-Deployed 🚀)</h1>
       
       <form onSubmit={addTodo} className="input-group">
         <input 
